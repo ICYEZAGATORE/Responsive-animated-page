@@ -18,3 +18,45 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right:0 ;
+    z-index: 1000;
+    padding: 35px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .50s ease;
+}
+.logo img{
+    width:100% ;
+    height: auto;
+}
+.navlist{
+    display: flex;
+    
+}
+.navlist a{
+display: inline-block;
+margin: 0;
+color: var(--text-color);
+font-size:var(--p-font) ;
+transition: all .6s ease;
+padding: 3px;
+
+}
+.navlist a:hover{
+        color: var(--main-color);
+}
+.right-content{
+    display: flex;
+    align-items: center;
+}
+.nav-btn{
+    display:inline-block;
+    padding:9px 24px;
+    background: transparent ;
+    border: 2px solid var(--text-color);
+}
