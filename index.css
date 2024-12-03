@@ -60,3 +60,9 @@ padding: 3px;
     background: transparent ;
     border: 2px solid var(--text-color);
 }
+#menu-icon{
+    font-size: 42px;
+    z-index: 10001;
+    cursor: pointer;
+    margin-left:25px ;
+}
